@@ -1,0 +1,31 @@
+.contact {
+    height: 600px;
+}
+
+input[type=text], input[type=email], textarea {
+    font-size: 14px;
+    width: 100%;
+    padding: 8px 8px;
+    margin: 8px 0 18px;
+    display: inline-block;
+    border: 1px solid #ccc;
+}
+
+input::placeholder {
+    color: #b5b5b5
+}
+
+textarea {
+    height: 200px;
+    margin-left: 0;
+}
+
+input[type=submit] {
+    width: 115px;
+    background-color: cadetblue;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
